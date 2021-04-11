@@ -20,7 +20,7 @@ namespace CloudGenEventsConsumer
         public static async Task<string> Run([EventHubTrigger("globalazurethermometer", Connection = "EventHubConnection")]
             EventData[] events, ILogger log)
         {
-            log.LogInformation("Start listen to schumag eventhub");
+            log.LogInformation("Start listen to Thermometer eventhub");
 
             var exceptions = new List<Exception>();
 
