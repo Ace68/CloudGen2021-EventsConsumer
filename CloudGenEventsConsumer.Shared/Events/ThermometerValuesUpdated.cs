@@ -1,6 +1,10 @@
 ﻿using CloudGenEventsConsumer.Shared.CustomTypes;
 using FourSolid.Athena.Messages.Events;
 using FourSolid.Common.ValueObjects;
+using FourSolid.IoT.Shared.ValueObjects;
+using CommunicationDate = CloudGenEventsConsumer.Shared.CustomTypes.CommunicationDate;
+using DeviceName = CloudGenEventsConsumer.Shared.CustomTypes.DeviceName;
+using EventId = CloudGenEventsConsumer.Shared.CustomTypes.EventId;
 
 namespace CloudGenEventsConsumer.Shared.Events
 {

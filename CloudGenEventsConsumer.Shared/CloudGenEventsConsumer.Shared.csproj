@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="FourSolid.Athena" Version="3.2.0" />
+    <PackageReference Include="FourSolid.IoT.Shared.Events" Version="1.9.3" />
   </ItemGroup>
 
   <ItemGroup>

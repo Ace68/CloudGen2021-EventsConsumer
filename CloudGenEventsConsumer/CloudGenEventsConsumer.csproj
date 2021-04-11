@@ -6,6 +6,7 @@
   <ItemGroup>
     <PackageReference Include="Azure.Messaging.EventHubs.Processor" Version="5.4.0" />
     <PackageReference Include="FourSolid.Athena" Version="3.2.0" />
+    <PackageReference Include="FourSolid.IoT.Shared.Events" Version="1.9.3" />
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.EventHubs" Version="4.2.0" />
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.ServiceBus" Version="4.2.1" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.11" />
