@@ -15,7 +15,7 @@ namespace CloudGenEventsConsumer
 {
     public static class SchumagEventsConsumer
     {
-        [FunctionName("ThermomterEventsConsumer")]
+        [FunctionName("ThermometerEventsConsumer")]
         [return: ServiceBus("thermometervaluesupdated", Connection = "ServicesBusConnection")]
         public static async Task<string> Run([EventHubTrigger("globalazurethermometer", Connection = "EventHubConnection")]
             EventData[] events, ILogger log)
@@ -44,7 +44,7 @@ namespace CloudGenEventsConsumer
                         thermometerValuesUpdated.EventId,
                         thermometerValuesUpdated.DeviceName,
                         celsiusTemperature,
-                        new UnitOfMeasurement("C"),
+                        new UnitOfMeasurement("°C"),
                         thermometerValuesUpdated.CommunicationDate,
                         thermometerValuesUpdated.Who, thermometerValuesUpdated.When);
                     
